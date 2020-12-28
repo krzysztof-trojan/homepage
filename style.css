@@ -1,0 +1,28 @@
+h1 {
+    color: #22333B;
+}
+
+h2 {
+    color: #1460AA;
+}
+
+body {
+    background-color: #e5e9e7;
+}
+
+footer {
+    width: 300px;
+    border-top: 3px solid black;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    color: #47fc00;
+}
+
+.obi-one {
+    background-color: #96c9f3;
+}
