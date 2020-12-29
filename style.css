@@ -2,12 +2,8 @@ h1 {
     color: #22333B;
 }
 
-h2 {
-    color: #1460AA;
-}
-
 body {
-    background-color: #e5e9e7;
+    background-color: #c7f3de;
 }
 
 footer {
@@ -20,9 +16,10 @@ body {
 }
 
 h3 {
-    color: #47fc00;
+    color: #1460AA;
 }
 
 .obi-one {
     background-color: #96c9f3;
+    width: 800px;
 }
