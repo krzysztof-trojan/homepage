@@ -1,9 +1,9 @@
 h1 {
-    color: #22333B;
+    color: #D2F898;
 }
 
 body {
-    background-color: #c7f3de;
+    background-color: #CED3DC;
 }
 
 footer {
@@ -16,10 +16,78 @@ body {
 }
 
 h3 {
-    color: #1460AA;
+    color: #D44D5C;
+    ;
+}
+
+article {
+    color: #2D3047;
 }
 
 .obi-one {
-    background-color: #96c9f3;
+    background-color: #93B7BE;
     width: 800px;
+}
+
+.box-index {
+    min-width: 100px;
+    height: 50px;
+    background: #339989;
+    padding: 5px;
+    border: #D2F898;
+    border-width: 2px;
+    border-radius: 10px;
+    display: inline-block;
+    border-style: solid;
+    margin: 5px;
+}
+
+.box-html {
+    min-width: 100px;
+    height: 50px;
+    background: #339989;
+    padding: 5px;
+    border: #D2F898;
+    border-style: solid;
+    border-radius: 10px;
+    display: inline-block;
+    border-width: 2px;
+    margin: 5px;
+}
+
+.box-css {
+    min-width: 100px;
+    height: 50px;
+    background: #339989;
+    padding: 5px;
+    border: #D2F898;
+    border-width: 2px;
+    border-radius: 10px;
+    display: inline-block;
+    border-style: solid;
+    margin: 5px;
+}
+
+.box-js {
+    min-width: 100px;
+    height: 50px;
+    background: #339989;
+    padding: 5px;
+    border: #D2F898;
+    border-width: 2px;
+    border-radius: 10px;
+    display: inline-block;
+    border-style: solid;
+    margin: 5px;
+}
+
+.nav {
+    position: sticky;
+    top: 30px;
+    height: 100px;
+    width: 800px;
+}
+
+a {
+    color: white;
 }
