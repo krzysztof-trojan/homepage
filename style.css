@@ -1,93 +1,56 @@
-h1 {
-    color: #D2F898;
-}
-
-body {
-    background-color: #CED3DC;
-}
-
-footer {
-    width: 300px;
-    border-top: 3px solid black;
-}
-
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h3 {
-    color: #D44D5C;
-    ;
-}
-
-article {
-    color: #2D3047;
-}
-
-.obi-one {
-    background-color: #93B7BE;
-    width: 800px;
-}
-
-.box-index {
-    min-width: 100px;
-    height: 50px;
-    background: #339989;
-    padding: 5px;
-    border: #D2F898;
-    border-width: 2px;
-    border-radius: 10px;
-    display: inline-block;
-    border-style: solid;
-    margin: 5px;
-}
-
-.box-html {
-    min-width: 100px;
-    height: 50px;
-    background: #339989;
-    padding: 5px;
-    border: #D2F898;
-    border-style: solid;
-    border-radius: 10px;
-    display: inline-block;
-    border-width: 2px;
-    margin: 5px;
-}
-
-.box-css {
-    min-width: 100px;
-    height: 50px;
-    background: #339989;
-    padding: 5px;
-    border: #D2F898;
-    border-width: 2px;
-    border-radius: 10px;
-    display: inline-block;
-    border-style: solid;
-    margin: 5px;
-}
-
-.box-js {
-    min-width: 100px;
-    height: 50px;
-    background: #339989;
-    padding: 5px;
-    border: #D2F898;
-    border-width: 2px;
-    border-radius: 10px;
-    display: inline-block;
-    border-style: solid;
-    margin: 5px;
-}
-
-.nav {
-    position: sticky;
-    top: 30px;
-    height: 100px;
-    width: 800px;
-}
-
-a {
-    color: white;
-}
+    .title {
+        color: #d44d5c;
+        margin: 5% 20% 0 20%;
+    }
+    
+    .title__second {
+        color: #d44d5c;
+        margin: 5% 20% 0 20%;
+    }
+    
+    .title__third {
+        color: #d44d5c;
+    }
+    
+    .fullbody {
+        background-color: #ced3dc;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        max-width: 1000px;
+        padding: 0 15% 2% 15%;
+        margin-top: 20px;
+    }
+    
+    .fullbody__footer {
+        width: 750px;
+        border-top: 3px solid #d44d5c;
+        padding: 0 0 0 0;
+    }
+    
+    .section {
+        background: rgba(188, 255, 80, 0.493);
+    }
+    
+    .section__article {
+        color: #2d3047;
+        background: rgba(255, 127, 80, 0.493);
+    }
+    
+    .navigation {
+        top: 30px;
+        min-width: 500px;
+        height: 30px;
+        background: #d44d5c;
+        padding: 5px;
+        border-width: 2px solid;
+        border-radius: 10px;
+        display: inline-block;
+    }
+    
+    .navigation__link {
+        color: white;
+        padding: 5px;
+    }
+    
+    .image {
+        margin: 3% 25% 3% 25%;
+    }
