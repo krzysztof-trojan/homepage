@@ -10,7 +10,7 @@
 
 
 
-<body class="fullbody">
+<body>
     <header>
         <nav class="navigation">
             <a class="navigation__link navigation__link-home" href="index.html">Strona glowna</a>
@@ -19,8 +19,8 @@
             <a class="navigation__link" href="nauka-js.html">Nauka js</a>
         </nav>
     </header>
-    <main>
-        <header>
+    <main class="fullbody">
+        <header class="fullbody__header">
             <h1 class="title">Krzysztof Trojan - from hell!</h1>
         </header>
         <h2 class="title__second">- amator kodu z celem!</h2>
@@ -28,23 +28,26 @@
 
         <section class="section">
             <h3 class="title__third">O mnie!</h3>
-            <article class="section section__article">
+            <article class="section__article">
                 <p>Rocznik 85'. Polak. <b>Imigrant.</b> Obecnie Kanada od 2016r., wczesniej 3 lata w Holandii. </p>
                 <p>Co mnie nakreca, nie ma tego duzo, wiec po krotce: roadtripy, campingi, hiking, moje psy, moj kot i najwspalnialsza kobieta jaka spotkalem! ... no i troche komputery i fotografia jak mam zajawke (najczesciej do czasu kiedy nie trafie na
                     wiekszy problem).
                 </p>
+                <p class="section__article section__article--js"></p>
             </article>
         </section>
 
         <section class="section">
             <h3 class="title__third">Jaki mam plan?</h3>
 
-            <article class="section section__article">
-                <p><strong>Chcialbym sie zajac frontendem profesjonalnie.</strong> Chcialbym zeby to byla moja glowna praca, albo chociaz na tyle powaze dorywcze zajecie zeby pozwolilo odlozyc kilka $. </p>
-                <p>Obecnie robie kurs <q><b><i>WTF</i></b> </q>- czyli poznaje elementy frontendu, a juz 25 stycnia zaczne 3 miesieczny <a href="https://comit.org "> kurs Javy. </a> Udalo mi sie dostac na darmowy kurs (jupi!) po ktorym mam szanse na platny
-                    staz i dalsze zatrudnienie w IT. <br> A jak nie to i tak jest to dobre miejsce zeby zaczyc przygode z kodem w Kanadzie.
-                    <a href="#col">Przejdz do notatek</a>'
+            <article class="section__article">
+                <p class="section__article-discription"><strong>Chcialbym sie zajac frontendem profesjonalnie.</strong> Chcialbym zeby to byla moja glowna praca, albo chociaz na tyle powaze dorywcze zajecie zeby pozwolilo odlozyc kilka $. </p>
+                <p>Obecnie robie kurs <q><b><i>WTF</i></b> </q>- czyli poznaje elementy frontendu, a juz 25 stycnia zaczne 3 miesieczny <a class="section__article-link" href="https://comit.org "> kurs Javy. </a> Udalo mi sie dostac na darmowy kurs (jupi!)
+                    po ktorym mam szanse na platny staz i dalsze zatrudnienie w IT. <br> A jak nie to i tak jest to dobre miejsce zeby zaczyc przygode z kodem w Kanadzie.
+                    <a class="section__article-link" href="#col">Przejdz do notatek</a>'
+
                 </p>
+
             </article>
 
             <h3 class="title__third">Co fajnego widzialem w Kanadzie?</h3>
@@ -62,9 +65,9 @@
             </article>
         </section>
     </main>
-    <footer class="fullbody fullbody__footer">
+    <footer class="fullbody__footer">
         Umiem podejmowac zle decyzje! To nie będzie fajna strona - poważnie!!! <br>
-        <a href="#top ">Wroc na góre!</a>
+        <a class="fullbody__footer-link" href="#top ">Wroc na góre!</a>
     </footer>
     <script src="main.js "></script>
 </body>

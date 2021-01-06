@@ -12,3 +12,7 @@ console.log(`Siema! Nazywam sie ${firstName} i mam ${age} lat.`);
 console.log(
     `Ja ${firstName}, mam dosc przewalone, bo ${ona} przyprowadzila do domu ${cat} i ${dog2} zeby ${dog1} mial kolezkow ;)`
 );
+
+const emptyParagraph = document.querySelector('.section__article--js');
+
+emptyParagraph.innerHTML = `Bez rozwiazania zadania domowego nie dałbym rady!`;
