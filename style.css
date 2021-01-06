@@ -52,6 +52,8 @@
     .navigation__link {
         color: white;
         padding: 5px;
+        cursor: pointer;
+        text-decoration: unset;
     }
     
     .navigation__link-home {
@@ -68,8 +70,12 @@
     
     .section__article-link {
         color: hotpink;
+        cursor: pointer;
+        text-decoration: unset;
     }
     
     .fullbody__footer-link {
         color: hotpink;
+        cursor: pointer;
+        text-decoration: unset;
     }
