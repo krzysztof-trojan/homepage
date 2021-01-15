@@ -36,12 +36,12 @@ html {
 }
 
 .section__article {
-    color: #2d3047;
+    color: #050505;
 }
 
 .navigation {
     top: 30px;
-    height: 30px;
+    height: 36px;
     background: #d44d5c;
     padding: 5px;
     border-width: 2px solid;
@@ -51,6 +51,7 @@ html {
 
 .navigation__link {
     color: white;
+    font-size: 24px;
     padding: 5px;
     cursor: pointer;
     text-decoration: unset;
@@ -61,11 +62,12 @@ html {
 }
 
 .image {
-    margin: 3% 25% 3% 25%;
+    display: flex;
+    align-items: center;
 }
 
 body {
-    background: linear-gradient(345deg, rgba(96, 182, 32, 1) 9%, rgba(7, 7, 171, 0.7063200280112045) 39%, rgba(0, 212, 255, 1) 69%);
+    background: linear-gradient( 345deg, rgba(96, 182, 32, 1) 9%, rgba(7, 7, 171, 0.7) 39%, rgba(0, 212, 255, 1) 69%);
 }
 
 .section__article-link {
