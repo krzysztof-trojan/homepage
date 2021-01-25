@@ -11,6 +11,8 @@ html {
 .title {
     color: #d44d5c;
     margin: 20px auto;
+    justify-content: center;
+    display: inline-flex;
 }
 
 .title__second {
@@ -40,13 +42,14 @@ html {
 }
 
 .navigation {
-    top: 30px;
     height: 36px;
+    min-width: 130vh;
     background: #d44d5c;
     padding: 5px;
-    border-width: 2px solid;
-    border-radius: 10px;
-    display: inline-block;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .navigation__link {
@@ -62,12 +65,15 @@ html {
 }
 
 .image {
-    display: flex;
-    align-items: center;
+    display: block;
+    justify-content: center;
 }
 
 body {
     background: linear-gradient( 345deg, rgba(96, 182, 32, 1) 9%, rgba(7, 7, 171, 0.7) 39%, rgba(0, 212, 255, 1) 69%);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
 }
 
 .section__article-link {
@@ -88,4 +94,10 @@ body {
 
 .list__item-second {
     list-style: square;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background: red;
+    }
 }

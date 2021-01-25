@@ -15,4 +15,20 @@ console.log(
 
 const emptyParagraph = document.querySelector('.section__article--js');
 
-emptyParagraph.innerHTML = `Bez rozwiazania zadania domowego nie dałbym rady!`;
+emptyParagraph.innerHTML = `Bez rozwiazania zadania domowego nie dałbym rady nic a nic!`;
+
+if ('Java' != 'JavaScript') {
+    console.log('Java to JavaScript');
+}
+
+
+const button = document.querySelector('.action--js');
+
+console.log(button)
+
+const myClick = () => {
+    const heading = document.querySelector('.main__heading--js');
+    heading.innerHTML = `Siema! Nazywam sie Krzysiek`;
+}
+
+button.addEventListener('click', myClick);
